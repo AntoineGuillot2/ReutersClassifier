@@ -26,7 +26,9 @@ if create_input==False:
     input_data_test=np.load('data/vectorized_883_400_test.npy')
 else:
     input_data=build_input('train',400)
+    np.save('data/vectorized_883_400.npy',input_data)
     input_data_test=build_input('test',400)
+    np.save('data/vectorized_883_400_test.npy',input_data_test)
 
 output_data=build_output('train')
 output_data_test=build_output('test')
