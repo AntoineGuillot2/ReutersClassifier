@@ -17,7 +17,7 @@ from helper_functions.articleSimilarity import closest_articles, article_sim
 import numpy as np
 
 ##Boolean to chose whether to load or build the input dataset (takes some time)
-create_input=False
+create_input=True
 save_rnn=False
 ##Loading data
 
